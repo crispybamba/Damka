@@ -9,9 +9,11 @@ namespace Damka
     internal class Checker
     {
         private bool color; //white-True Black-False
-        public Checker(bool color)
+        private bool isQueen;
+        public Checker(bool color,bool isQoeen=false)
         {
             this.color = color;
+            this.isQueen = isQoeen;
         }
         public bool GetColor => color;
     }
