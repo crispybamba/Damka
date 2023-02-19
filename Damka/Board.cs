@@ -50,10 +50,9 @@ namespace Damka
                 for (int col = 0; col < board.GetLength(1); col++)
                 {
                     if (row <= 3 && colors[row, col])
-                        board[row, col] = new Square(new Checker(true));
+                        board[row, col] = new Square(true);
                     if (row >= 6 && !colors[row, col])
-                        board[row, col] = new Square(new Checker(false));
-
+                        board[row, col] = new Square(false);
                 }
             }
 
