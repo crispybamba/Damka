@@ -30,13 +30,15 @@ namespace Damka
                     if (turn == 0)
                     {
                         colors[row, col] = true;
-                        Console.Write("t   ");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("-");
                         turn++;
                     }
                     else
                     {
                         colors[row, col] = false;
-                        Console.Write("f   ");
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.Write("-");
                         turn--;
                     }
 

@@ -10,7 +10,8 @@ namespace Damka
     {
         static void Main(string[] args)
         {
-            Board board = new Board();
+            Console.BackgroundColor = ConsoleColor.Blue;
+            new Board();
             Console.ReadLine();
         }
         

@@ -8,6 +8,14 @@ namespace Damka
 {
     internal class Game
     {
+        private Board board;
+
+        private Game()
+        {
+            board = new Board();
+
+        }
+
         
     }
 }
