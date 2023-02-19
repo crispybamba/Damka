@@ -10,6 +10,9 @@ namespace Damka
     {
         static void Main(string[] args)
         {
+            Board board = new Board();
+            Console.ReadLine();
         }
+        
     }
 }
